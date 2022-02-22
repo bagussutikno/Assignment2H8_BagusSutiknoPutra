@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment1</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div id="menu-kanan">
+        <ul>
+            <li><a href="">Home</a><li>
+            <li><a href="">About</a><li>
+            <li><a href="">Portofolio</a><li>
+            <li><a href="">Contact Us</a><li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <img src="pp.JPG" alt="gambar" />
+        <div class="sidebar">
+            <h1 id="nm">Bagus Sutikno Putra</h1>
+            <p id="rol">Back End Development</p>
+            <div class="tombol">
+                <button class="x" onclick="hide()">Edit</button>
+            </div>
+        </div>
+        <div class="article">
+          <table>
+            <tr>
+              <td><strong>Availability</strong></td>
+              <td>: 
+               <span id="ava">
+                 Full Time
+               </span> 
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Usia</strong></td>
+              <td>: 
+               <span id="age">
+                 22
+               </span> 
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Lokasi</strong></td>
+              <td>: 
+               <span id="loc">
+                 Surabaya
+               </span> 
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Pengalaman</strong></td>
+              <td>: 
+               <span id="peng">
+                 1
+               </span> 
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Email</strong></td>
+              <td>: 
+               <span id="imel">
+                email@gmail.com
+               </span> 
+              </td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+          <div class="content" style="display: none;" id="con">
+            <form>
+                
+                  <label for="nama">Nama</label> <br>
+                  <input
+                    type="text"
+                    name="nama"
+                    id="nama"
+                    placeholder="Masukkan Nama"
+                    required
+                  /> 
+                  <br>
+                  <label for="role">Role</label> <br>
+                  <input
+                    type="text"
+                    name=""
+                    id="role"
+                    placeholder="Masukkan Role"
+                    required
+                  /> 
+                  <br>
+                  <label for="availability">Availability</label> <br>
+                  <input
+                    type="text"
+                    name=""
+                    id="availability"
+                    placeholder="Full Time/Part Time"
+                    required
+                  /> 
+                  <br>
+                  <label for="usia">Usia</label> <br>
+                  <input
+                    type="number"
+                    name=""
+                    id="usia"
+                    placeholder="Masukkan Usia"
+                    required
+                  /> 
+                  <br>
+                  <label for="lokasi">Lokasi</label> <br>
+                  <input
+                    type="text"
+                    name=""
+                    id="lokasi"
+                    placeholder="Masukkan Lokasi"
+                    required
+                  /> 
+                  <br>
+                  <label for="pengalaman">Pengalaman</label> <br>
+                  <input
+                    type="number"
+                    name=""
+                    id="pengalaman"
+                    placeholder="Tahun Pengalaman"
+                    required
+                  /> 
+                  <br>
+                  <label for="email">Email</label> <br>
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    placeholder="Masukkan Email"
+                    required
+                  /> 
+                  <br>  
+                  <input type="button" class="btnsub" onclick="edit()" value="Submit" />
+                
+            </form>
+          </div>
+            <script src="script.js"></script>
+</body>
+</html>

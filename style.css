@@ -1,0 +1,91 @@
+#menu-kanan{
+    height: 40px;
+    background-color: white;
+  }
+#menu-kanan ul {
+    float: right;
+    list-style: none;
+  }
+#menu-kanan ul li {
+    text-align: center;
+    float: left;
+  }
+#menu-kanan ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 40px
+  }
+#menu-kanan ul li a:hover{
+    background-color: black;
+    color: white;
+  }
+
+a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.header,
+.content {
+  position: relative;
+  padding: 2rem;
+  margin: 1rem 2rem;
+  background: #fff;
+}
+.header {
+  display: flex;
+}
+.header img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  padding-top: 1rem;
+}
+.sidebar {
+  padding-top: 0.5rem;
+}
+.sidebar p {
+  color: #808080;
+}
+.article {
+  margin-left: 3rem;
+}
+.tombol {
+  margin-top: 2rem;
+}
+.x {
+  margin: 1rem 0;
+  padding: 10px 30px;
+  background: blue;
+  color: #fff;
+  border: black 0.1rem solid;
+  border-radius: 0.5rem;
+}
+table {
+  margin: 0 3rem;
+  border-spacing: 1rem;
+}
+
+.content form input,
+.content form select
+{
+  box-sizing : border-box;
+  width: 100%;
+  margin: .5rem 0;
+  padding: .4rem;
+}
+.content form label{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.btnsub{
+  background: blue;
+  border: none;
+  border-radius: .2rem;
+  color: #fff;
+  padding: .4rem;
+  font-weight: bold;
+}
